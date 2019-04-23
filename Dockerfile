@@ -14,6 +14,6 @@ RUN echo "root:!::0:::::" > /etc/shadow ; echo "root:x:0:0:root:/root:/bin/ash" 
 COPY init.sh /
 RUN chmod +x /init.sh
 
-ENTRYPOINT ["/init.sh"]
-
 EXPOSE 22
+
+ENTRYPOINT ["/init.sh"]
