@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.9
 
 LABEL maintainer="docker-dario@neomediatech.it"
 
